@@ -1,0 +1,47 @@
+* {
+    font-family: "Inter", sans-serif;
+    margin: 0px;
+}
+
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 90px;
+    margin-right: 90px;
+    padding-top: 30px;
+}
+.i i{
+    color: #FB9D5C;
+    margin-right: 10px;
+    font-size: 20px
+
+}
+
+.i{
+    display: none;
+}
+
+.nav-1234 a {
+    color: #FB9D5C;
+    font-size: 18.6px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+    margin-right: 70px;
+}
+
+@media screen and (max-width:850px) {
+    .nav-1234{
+        display: none;
+    }
+    .i{
+        display: flex;
+    }
+
+    .nav{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
